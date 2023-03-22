@@ -569,21 +569,21 @@ input[type=radio][disabled] {
 
 .btn-primary:focus {
     color: #fff;
-    background-color: #008cff;
+    background-color: #d971e2;
     border-color: #000
 }
 
 .btn-primary:active,
 .btn-primary:hover {
     color: #fff;
-    background-color: #008cff;
+    background-color: #d971e2;
     border-color: #fff;
 }
 
 .btn-primary:active:focus,
 .btn-primary:active:hover {
     color: #fff;
-    background-color: #008cff;
+    background-color: #d971e2;
     border-color: #fff;
 }
 
