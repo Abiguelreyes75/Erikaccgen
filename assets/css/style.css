@@ -587,7 +587,7 @@ input[type=radio][disabled] {
 .btn-primary {
     color: #fff;
     background-image: linear-gradient(to top, #ec83cb, #a979c8);
-    border-color:#ffb5f6;
+    border-color:#000000;
 }
 
 .btn-primary:focus {
@@ -896,4 +896,32 @@ textarea {
   width: 100%;
   z-index: 0;
   pointer-events: none;
+}
+
+
+.footer-info {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #00000099;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.footer-info a {
+  color: #00bfff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-info a:hover {
+  text-decoration: underline;
+}
+
+/* Tamaño más grande solo en pantallas grandes */
+@media (min-width: 768px) {
+  .footer-info {
+    font-size: 20px;
+  }
 }
