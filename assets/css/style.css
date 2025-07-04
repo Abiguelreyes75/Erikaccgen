@@ -19,7 +19,7 @@ html, body {
   margin: 0;
   padding: 0;
   position: relative;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .navigations {
@@ -222,7 +222,7 @@ html, body {
   margin: 0;
   padding: 0;
   position: relative;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 
@@ -589,7 +589,7 @@ input[type=radio][disabled] {
 .btn-primary {
     color: #fff;
     background-image: linear-gradient(to top, #ec83cb, #a979c8);
-    border-color:#000000;
+    border-color:#edb5f5;
 }
 
 .btn-primary:focus {
@@ -829,7 +829,7 @@ html, body {
   margin: 0;
   padding: 0;
   position: relative;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 
@@ -901,8 +901,8 @@ textarea {
   pointer-events: none;
 }
 
-/* Tamaño más grande solo en pantallas grandes */
 
+/* Tamaño más grande solo en pantallas grandes */
 
 .footer-info {
   font-family: 'Poppins', sans-serif !important;
