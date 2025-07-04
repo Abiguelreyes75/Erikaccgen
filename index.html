@@ -26,8 +26,25 @@
 
   gtag('config', 'UA-178193698-1');
 </script>
+
+<style>
+  #particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  #app {
+    position: relative;
+    z-index: 1;
+  }
+</style>
+
 </head>
 <body>
+<div id="particles-js"></div>
     <div id="app">
         <nav class="navigations">
 <span style="color:#fff; font-size: 18px; font-weight: bold;"><img src="assets/imgs/log-in-yuzu2.png" alt="" width="50px"> ErikaCC-Gen <img src="assets/imgs/log-in-yuzu.png" alt="" width="50"></span>
@@ -49,7 +66,7 @@
         </div>
    <center>         
        <br>
-  <p>By Erikareyes</br> Grupo de Whatsapp <a href="https://chat.whatsapp.com/EpZoCJ6ivJ87hUSrktTJYX">@erikareyes <img src="assets/imgs/log-in-hime.png" alt="" width="40"></a> 
+  <p>❝𝐁𝐘 𝐄𝐑𝐈𝐊𝐀 𝐑𝐄𝐘𝐄𝐒❞</br> Grupo de Whatsapp <a href="https://chat.whatsapp.com/EpZoCJ6ivJ87hUSrktTJYX">@erikareyes <img src="assets/imgs/log-in-hime.png" alt="" width="40"></a> 
             </p>
     </center>
         </div>
@@ -60,6 +77,33 @@ function copy(){
     document.execCommand('copy');
 }
 </script>
+
+<!-- Particles.js -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    particles: {
+      number: { value: 60, density: { enable: true, value_area: 800 } },
+      color: { value: "#00bfff" },
+      shape: { type: "circle" },
+      opacity: { value: 0.5 },
+      size: { value: 2 },
+      line_linked: {
+        enable: true,
+        distance: 150,
+        color: "#00bfff",
+        opacity: 0.4,
+        width: 1
+      },
+      move: { enable: true, speed: 2 }
+    },
+    interactivity: {
+      detect_on: "canvas",
+      events: { onhover: { enable: true, mode: "repulse" } }
+    }
+  });
+</script>
+
 </body>
 </html>
 
