@@ -4,7 +4,13 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
-body {
+html, body {
+  min-height: 100%;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
     margin: 0
 }
 .navigations {
@@ -192,7 +198,13 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.972)
 }
 
-body {
+html, body {
+  min-height: 100%;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
     font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 1.42857143;
@@ -564,7 +576,7 @@ input[type=radio][disabled] {
 .btn-primary {
     color: #fff;
     background-image: linear-gradient(to top, #ec83cb, #a979c8);
-    border-color:#eea1f3;
+    border-color:#000000;
 }
 
 .btn-primary:focus {
@@ -663,7 +675,7 @@ input[type=submit].btn-block {
     line-height: 1;
     color: #2c3e50;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #ecf0f1;
     border: 1px solid #dce4ec;
     border-radius: 4px
 }
@@ -789,7 +801,13 @@ input:focus {
     box-shadow: none
 }
 
-body {
+html, body {
+  min-height: 100%;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
     background-color: #222;
     font-family: sans-serif
 	color:#008cff;
@@ -797,7 +815,7 @@ body {
 
 a {
     text-decoration: none;
-    color:#fee6ff;
+    color:#008cff;
 }
 
 textarea {
@@ -805,7 +823,7 @@ textarea {
 }
 
 .form-group .form-control {
-    border-color:#eea1f3;
+    border-color:#fff;
     font-weight: 700
 }
 
@@ -847,33 +865,12 @@ textarea {
 }
 
 
-
-/* === Fondo de anime y overlay de líneas azules === */
-body {
-  background: url('../imgs/Loli.jpg') no-repeat center center fixed;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: relative;
-  font-family: sans-serif;
-  color: #fee6ff;
-}
-
-body::after {
-  content: "";
+#particles-js {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
-  background: url('../imgs/f750395a-c692-453b-b417-23d58e72d13c.png') center center / cover no-repeat;
+  width: 100%;
+  z-index: 0;
   pointer-events: none;
-  z-index: 1;
-  opacity: 0.6;
-}
-
-#app {
-  position: relative;
-  z-index: 2;
 }
